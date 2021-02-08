@@ -1,7 +1,6 @@
 import {useState} from 'react'
 
 
-
 function App() {
   const [inputVal, setInputVal] = useState('')
   const [todos, setTodos] = useState([''])
@@ -29,7 +28,6 @@ function App() {
           <li key={index}>{todo}</li> : null
         ))}
       </ul>
-    
     </>
   );
 }
